@@ -1,0 +1,130 @@
+﻿body {
+}
+.contact {
+    background: #e7e5d0;
+    padding: 8em 0;
+}
+
+
+input[type=text] {
+    border: solid 1px gray;
+    padding: 2px;
+}
+
+    input[type=text]:hover {
+        border: solid 1px lightgray;
+        padding: 2px;
+    }
+.contact-form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+    .contact-form input[type="text"] {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        border: 2px solid #000;
+        outline: none;
+        margin-bottom: 4em;
+        font-size: 0.95em;
+        color: #BDBDBD;
+        background-color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .contact-form textarea {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        border: 2px solid #000;
+        outline: none;
+        font-size: 0.95em;
+        color: #BDBDBD;
+        height: 200px;
+        resize: none;
+        background-color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .contact-form input[type="submit"] {
+        background: #9a977a;
+        text-transform: uppercase;
+        border: none;
+        padding: 1.5em 1em;
+        position: absolute;
+        cursor: pointer;
+        color: #FFF;
+        outline: none;
+        font-size: 1em;
+        width: 70%;
+        text-align: center;
+        margin-top: 1.5em;
+        font-weight: normal;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+        .contact-form input[type="submit"]:hover {
+            background: #333333;
+        }
+
+.contact-left {
+    text-align: center;
+}
+
+    .contact-left h4 {
+        color: #000;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 75px 0;
+        padding: 0 60px;
+    }
+
+.contact_btn {
+    position: relative;
+    z-index: 1;
+}
+
+ul.contact-list-one {
+    float: left;
+    width: 60%;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+    ul.contact-list-one h5, ul.contact-list-two h5 {
+        color: #000;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    ul.contact-list-one li, ul.contact-list-two li {
+        color: #000;
+        font-size: 0.95em;
+        line-height: 1.8em;
+        text-transform: uppercase;
+    }
+
+.contact-list-one li a {
+    color: #000000;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+    .contact-list-one li a:hover {
+        color: #333333;
+    }
+
+ul.contact-list-two {
+    float: left;
+    width: 40%;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
